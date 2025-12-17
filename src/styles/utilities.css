@@ -1,0 +1,41 @@
+@layer utilities {
+  .utility-except-header-height {
+    @apply min-h-[calc(100dvh-56px)];
+  }
+  .utility-white-shadow-text {
+    @apply text-shadow-[-1px_0px_white,0px_1px_white,1px_0px_white,0px_-1px_white];
+  }
+  .utility-absolute-center {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+  .utility-fixed-center {
+    @apply fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+  .utility-flex-center {
+    @apply flex justify-center items-center;
+  }
+  .utility-start-page-padding {
+    @apply pt-[32px] pb-[168px];
+  }
+  .utility-z-01 {
+    @apply z-10;
+  }
+  .utility-z-02 {
+    @apply z-20;
+  }
+  .utility-z-03 {
+    @apply z-30;
+  }
+  /* 상단바, 푸터, 기타 fixed 요소들 */
+  .utility-z-04 {
+    @apply z-40;
+  }
+  /* 백드롭 등 */
+  .utility-z-05 {
+    @apply z-50;
+  }
+  /* 모달, 팝업 등 */
+  .utility-z-above {
+    @apply z-100;
+  }
+}

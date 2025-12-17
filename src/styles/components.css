@@ -1,0 +1,29 @@
+@layer components {
+  .component-page-title-h1 {
+    @apply text-font-black-01 text-title0 font-eb leading-[140%];
+  }
+  .component-white-container {
+    @apply bg-static-background-white-03 px-[20px] py-[16px] rounded-[20px];
+  }
+  .component-white-container-title-title2-h2 {
+    @apply text-font-black-01 text-title2 font-eb;
+  }
+  .component-white-container-title-title3-h2 {
+    @apply text-font-black-01 text-title3 font-eb;
+  }
+  .component-white-container-title-body1-h2 {
+    @apply text-font-black-01 text-body1 font-b;
+  }
+  .component-white-container-content {
+    @apply text-font-dark-gray-02 text-body2 font-r;
+  }
+  .component-input-title-h2 {
+    @apply text-font-black-01 text-title3 font-b;
+  }
+  .component-input-content-p {
+    @apply text-font-dark-gray-03 text-body3 font-r;
+  }
+  .component-modal-dialog {
+    @apply bg-transparent flex flex-col justify-center items-center gap-[80px] top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+  }
+}

@@ -1,0 +1,27 @@
+@layer base {
+  .base-wrapper {
+    @apply relative w-full h-full;
+  }
+  .base-wrapper-max-width {
+    @apply relative w-full max-w-[560px] min-h-[100dvh] mx-auto;
+  }
+  .base-page-wrapper {
+    @apply relative w-full flex flex-col items-center mt-[56px];
+  }
+  .base-page-wrapper-px-20px {
+    @apply relative w-full flex flex-col items-center mt-[56px] px-[20px];
+  }
+  .base-page-wrapper-px-32px {
+    @apply relative w-full flex flex-col items-center mt-[56px] px-[32px];
+  }
+  .base-page-wrapper-px-48px {
+    @apply relative w-full flex flex-col items-center mt-[56px] px-[48px];
+  }
+  .base-page-wrapper-mission-info {
+    @apply relative min-h-[calc(100dvh-56px)] w-full flex flex-col items-center mt-[56px] px-[40px] pt-[32px] pb-[160px];
+  }
+  /* 아래 css는 상단 로고가 들어갈 108px를 패딩으로 따로 마련 */
+  .base-page-wrapper-stamp-board {
+    @apply relative min-h-[calc(100dvh)] w-full flex justify-center px-[20px] overflow-x-clip;
+  }
+}
